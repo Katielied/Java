@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=ArrayStack
+comment1.params=
+comment1.target=ArrayStack()
+comment10.params=
+comment10.target=void\ clear()
+comment2.params=capacity
+comment2.target=ArrayStack(int)
+comment3.params=
+comment3.target=void\ checkIntegrity()
+comment4.params=capacity
+comment4.target=void\ checkCapacity(int)
+comment5.params=
+comment5.target=void\ ensureCapacity()
+comment6.params=newEntry
+comment6.target=void\ push(java.lang.Object)
+comment7.params=
+comment7.target=java.lang.Object\ pop()
+comment8.params=
+comment8.target=java.lang.Object\ peek()
+comment9.params=
+comment9.target=boolean\ isEmpty()
+numComments=11

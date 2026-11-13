@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Disc
+comment0.text=\n\ Object\ Disc\ class.\n\ Katarina\ Liedbeck\n\ Version\ 1,\ 10/08/2023\n
+comment1.params=num
+comment1.target=Disc(int)
+comment1.text=\n\ Constructor\ for\ the\ disc.\n\ It\ will\ be\ assigned\ to\ a\ player,\ using\ their\ number.\n
+comment2.params=
+comment2.target=int\ getPlayerNum()
+comment2.text=\n\ Method\ which\ gets\ the\ player\ number.\n\ No\ parameters\ will\ be\ passed\ in\ this\ method.\n\ Precondition\:\ There\ is\ an\ assigned\ playernumber.\n\ Postcondition\:\ The\ method\ will\ return\ the\ player\ number.\n\n
+numComments=3

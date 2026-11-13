@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Driver
+comment0.text=\n\ Driver\ class\ for\ the\ King\ of\ Stacks\ game.\n\ @Katarina\ Liedbeck\ \n\ @version1\ 10/08/2023\n\ Helped\ by\ Chris\ Sciortino\n
+comment1.params=
+comment1.target=void\ main()
+comment1.text=\n\ This\ driver\ will\ scan\ a\ user\ input\ of\ how\ many\ rounds\ they\ would\ like\ to\ play,\ while\ the\ user\ input\ is\ less\ than\ 30\ rounds\ it\ will\ continue\ \n\ prompting\ the\ user.\n\ It\ will\ then\ create\ a\ new\ object\ of\ NewGame\ of\ KingOfStacks\ and\ use\ the\ helper\ methods\ of\ playGame,\ displayScores,\ and\ displayWinner\ in\ the\ KingOfStacks\n\ class.\n\ It\ will\ play\ the\ full\ game\ of\ KingOfStacks\ and\ display\ the\ scores\ of\ player\ 1\ and\ 2,\ and\ the\ winner.\ \n\ It\ will\ also\ display\ every\ time\ a\ disc\ is\ pushed\ onto\ a\ stack,\ and\ everytime\ a\ disc\ is\ popped\ from\ a\ stack.\n
+numComments=2
