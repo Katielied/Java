@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\n\ Item.java\ -\ implementation\ of\ an\ Item\ to\ be\ placed\ in\ ShoppingCart\n
+comment1.params=n\ p
+comment1.target=Item(java.lang.String,\ int)
+comment2.params=other
+comment2.target=boolean\ equals(java.lang.Object)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=
+comment4.target=int\ getPrice()
+comment5.params=
+comment5.target=java.lang.String\ getName()
+numComments=6

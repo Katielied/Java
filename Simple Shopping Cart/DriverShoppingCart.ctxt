@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=DriverShoppingCart
+comment0.text=\n\ Driver\ class\ of\ ShoppingCart.\n\ This\ class\ will\ add\ items\ into\ an\ Item\ array,\ add\ these\ items\ into\ a\ shoppingCart,\ \n\ finally\ test\ out\ all\ methods\ found\ in\ ShoppingCart\ class.\n\nKatarina\ Liedbeck\n\ @version1\ 09/26/23\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

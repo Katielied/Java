@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=BagInterface
+comment0.text=\n\ BagInterface.java\ -\ ADT\ Bag\ type\n\ Describes\ the\ operations\ of\ a\ bag\ of\ objects\n
+comment1.params=
+comment1.target=int\ getCurrentSize()
+comment2.params=
+comment2.target=boolean\ isEmpty()
+comment3.params=newEntry
+comment3.target=boolean\ add(java.lang.Object)
+comment4.params=
+comment4.target=java.lang.Object\ remove()
+comment5.params=anEntry
+comment5.target=boolean\ remove(java.lang.Object)
+comment6.params=
+comment6.target=void\ clear()
+comment7.params=anEntry
+comment7.target=int\ getFrequencyOf(java.lang.Object)
+comment8.params=anEntry
+comment8.target=boolean\ contains(java.lang.Object)
+comment9.params=
+comment9.target=java.lang.Object[]\ toArray()
+numComments=10
