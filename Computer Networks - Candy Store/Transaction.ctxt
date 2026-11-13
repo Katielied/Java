@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Transaction
+comment0.text=\n\ Transaction\ object\ being\ passed\ between\ the\ client\ and\ the\ server.\n\n
+comment1.params=transactionName\ username
+comment1.target=Transaction(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Transaction\n
+comment2.params=
+comment2.target=java.lang.String\ getTransName()
+comment2.text=\n\ Gets\ the\ name\ of\ the\ transaction\ object.\n\n\ @param\ none\n\ @return\ string\ of\ transaction\ name.\n
+comment3.params=
+comment3.target=java.lang.String\ getUsername()
+numComments=4

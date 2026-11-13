@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Order
+comment0.text=\n\ Order\ object\ used\ by\ the\ client\ side,\ keeps\ track\ of\ each\ client's\ order,\ including\ the\ order\ name,\n\ their\ candies\ bought,\ quantities\ of\ each\ candy\ and\ running\ total.\n\n\ @Katarina\ Liedbeck\ \n
+comment1.params=orderName
+comment1.target=Order(java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Message\n\ Message\ object\ must\ have\ the\ name\ of\ the\ client\ and\ their\ desired\ response\ to\ a\ chat.\n
+comment2.params=
+comment2.target=double\ getRunningTotal()
+comment2.text=\n\ Used\ to\ get\ the\ running\ total\ of\ the\ order.\n\ Preconditions\:\ none\n\ Postconditions\:\ Returns\ a\ double\ -\ running\ total.\n
+comment3.params=priceToAdd
+comment3.target=void\ addtoTotal(double)
+comment3.text=\n\ Adds\ to\ the\ running\ total,\ used\ when\ client\ buys\ new\ candy.\n\ Preconditions\:\ double\ of\ the\ amount\ to\ add.\n\ Postconditions\:\ none.\n
+comment4.params=newCandy
+comment4.target=void\ addCandy(Candy)
+comment4.text=\n\ Adds\ a\ new\ candy\ object\ to\ their\ order.\n\ Preconditions\:\ Candy\ object\ of\ the\ new\ candy\ being\ added\ to\ their\ order.\n\ Postconditions\:\ none.\n
+comment5.params=
+comment5.target=void\ displayOrder()
+comment5.text=\n\ Used\ to\ print\ out\ a\ string\ of\ the\ clients\ order\ (displaying\ their\ order.)\n\ Preconditions\:\ None\n\ Postconditions\:\ Will\ print\ the\ order\ out\ as\ a\ string.\ \n
+numComments=6

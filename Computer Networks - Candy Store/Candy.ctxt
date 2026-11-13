@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Candy
+comment0.text=\n\ Class\ for\ candy\ object\ -\ holds\ a\ candy\ name,\ the\ quantity\ of\ that\ candy\ and\ the\ price\ per\ candy.\n\ \n
+comment1.params=candyName\ quantity
+comment1.target=Candy(java.lang.String,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Candy\n
+comment2.params=
+comment2.target=double\ GetCandyPrice()
+comment2.text=\n\ Since\ each\ candy\ has\ a\ different\ price,\ this\ method\ assigns\ a\ specific\ price\ for\ each\ type\ of\ candy.\n\ @params\ -\ none\n\ @returns\ -\ the\ double\ of\ the\ price\ for\ a\ specific\ candy\ type.\n
+comment3.params=
+comment3.target=java.lang.String\ getCandyName()
+comment3.text=\n\ Gets\ the\ name\ of\ the\ candy\ object.\n\n\ @param\ none\n\ @return\ string\ of\ candy\ name.\n
+comment4.params=
+comment4.target=int\ getQuantity()
+comment4.text=\n\ Gets\ the\ quantity\ of\ the\ candy\ object.\n\n\ @param\ none\n\ @return\ int\ of\ candy\ quantity\n
+comment5.params=newQuantity
+comment5.target=void\ setQuantity(int)
+comment5.text=\n\ Sets\ the\ quantity\ of\ the\ candy\ object.\n\n\ @param\ integer\ of\ the\ new\ quantity\ to\ set\ it\ to.\ \n\ @return\ none.\n
+numComments=6

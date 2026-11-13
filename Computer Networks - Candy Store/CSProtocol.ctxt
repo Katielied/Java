@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=CSProtocol
+comment1.params=TransactionChoice
+comment1.target=java.lang.String\ processInput(Transaction)
+comment1.text=\n\ Precondition\:\ A\ string\ input\ from\ the\ user\ passed\ in\ as\ a\ parameter.\n\ Postcondition\:\ Method\ returns\ string\ output\ response\ to\ the\ user\ depending\ on\ the\ state.\n
+numComments=2

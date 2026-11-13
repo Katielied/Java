@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Inventory
+comment0.text=\n\ Inventory\ object\ to\ hold\ all\ candies\ in\ the\ shop,\ and\ their\ quantities\ available.\ \n\n
+comment1.params=candies
+comment1.target=Inventory(java.util.List)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Inventory\n
+comment2.params=candyName\ quantity
+comment2.target=boolean\ updateInventory(java.lang.String,\ int)
+comment2.text=\n\ Method\ used\ to\ update\ the\ inventory\ -\ when\ client\ wants\ to\ buy\ a\ candy\ in\ the\ inventory.\n\ using\ keyword\ synchronized,\ ensuring\ only\ one\ thread\ can\ update\ inventory\ at\ a\ time.\n\ @param\ -\ String\ candyName\ the\ client\ wants\ to\ buy,\ and\ the\ int\ quantity\ of\ how\ many\ of\ that\ candy\ they\ want\ to\ buy.\n\ @return\ -\ boolean\ if\ the\ inventory\ was\ updated\ or\ not.\n
+comment3.params=
+comment3.target=java.lang.String\ displayInventory()
+comment3.text=\n\ Method\ used\ to\ display\ the\ inventory\ (toString).\n\ @param\ -\ None.\n\ @return\ -\ String\ of\ the\ inventory.\n
+numComments=4
