@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=StockLedger
+comment0.text=\n\ Class\ of\ StockLedger,\ blueprint\ for\ Driver\ to\ Use.\n\n\ @Katarina\ Liedbeck\n\ Helped\ by\ Tyler\ Reid\n\ @version1\ 10/31/2023\n
+comment1.params=
+comment1.target=StockLedger()
+comment1.text=\n\ Constructor\ for\ the\ object\ of\ StockLedger.\n\ Preconditions\:\ totalCapitalGainLoss\ has\ already\ been\ declared\ as\ a\ private\ int,\ and\ stocks\ has\ already\ been\ declared.\n\ Postconditions\:\ Will\ create\ a\ new\ StockLedger\ object.\n\ Parameters\:\ none\n\ Returns\:\ none\n
+comment2.params=stockToBuy
+comment2.target=void\ buy(StockLot)
+comment2.text=\n\ Buy\ method\ -\ Used\ for\ the\ user\ to\ buy\ stocks,\ with\ their\ own\ shares\ and\ price\ wanted.\n\ Preconditions\:\ the\ user\ input\ of\ the\ stock\ they\ wish\ to\ buy\ has\ already\ been\ validated,\ getShares()\ getBuyPrice\ and\ addToBack()\ methods\ have\ already\ been\ created\ \n\ and\ declared.\n\ Postcondition\:\ The\ method\ will\ add\ to\ the\ back\ of\ the\ linkedDeque\ of\ stocks,\ meaning\ the\ user\ will\ buy\ the\ stock\ which\ they\ wish.\n\ Parameters\:\ User\ input\ of\ an\ object\ of\ a\ StockLot,\ consists\ of\ the\ buy\ price\ and\ the\ shares\ they\ wish\ to\ buy.\n\ Returns\:\ none.\n
+comment3.params=stockToSell
+comment3.target=void\ sell(StockLot)
+comment3.text=\n\ Sell\ method\ -\ Used\ for\ the\ user\ to\ sell\ their\ own\ amount\ of\ shares\ and\ at\ their\ own\ price\ chosen.\n\ Preconditions\:\ The\ Stock\ they\ wish\ to\ sell\ has\ already\ been\ validated,\ and\ the\ getShares,\ getBuyPrice,\ getFront,\ setShares,\ and\ removeFront\ methods\ have\ \n\ already\ been\ created\ and\ declared.\n\ Postconditions\:\ The\ method\ will\ sell\ the\ wanted\ amount\ of\ shares\ at\ the\ wanted\ price\ by\ the\ user,\ it\ will\ continue\ selling\ until\ their\ shares\ reach\ 0,\ if\ their\ shares\n\ reach\ 0\ and\ a\ stockLot\ which\ has\ been\ partially\ sold\ does\ not\ reach\ zero,\ we\ will\ set\ the\ shares\ of\ this\ stock\ to\ its\ new\ shares.\ It\ a\ stoctLot\ reached\ zero,\ it\ will\n\ be\ removed\ from\ the\ linkedDeque\ of\ Stocks.\n\ If\ there\ are\ not\ enough\ shares\ in\ their\ Stocks,\ it\ will\ sell\ a\ part\ of\ what\ the\ user\ wants\ to\ sell\ and\ display\ that\ to\ the\ user.\n\ Parameters\:\ Taked\ in\ a\ parameter\ of\ a\ StockLot,\ including\ the\ user's\ input\ of\ the\ shares\ and\ price\ which\ they\ wish\ to\ sell\ at.\n\ Returns\:\ None.\n
+comment4.params=
+comment4.target=double\ computeTotalGainLoss()
+comment4.text=\n\ Computing\ the\ total\ gain\ or\ loss\ \n\ Preconditions\:\ The\ totalCapitalGainLoss\ should\ be\ updated\ during\ the\ program.\n\ Postconditions\:\ Returns\ the\ total\ capital\ gain\ or\ loss.\n\ Parameters\:\ none\n\ Returns\:\ returns\ the\ total\ capital\ gain\ or\ loss.\n
+numComments=5

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=DequeInterface
+comment0.text=\n\ DequeInterface.java\ -\ implementation\ of\ the\ Deque\ ADT\n\n
+comment1.params=newEntry
+comment1.target=void\ addToFront(java.lang.Object)
+comment1.text=\ Adds\ a\ new\ entry\ to\ the\ front/back\ of\ this\ deque.\n@param\ newEntry\ \ An\ object\ to\ be\ added.
+comment2.params=newEntry
+comment2.target=void\ addToBack(java.lang.Object)
+comment3.params=
+comment3.target=java.lang.Object\ removeFront()
+comment3.text=\ Removes\ and\ returns\ the\ front/back\ entry\ of\ this\ deque.\n\ \ \ \ @return\ \ The\ object\ at\ the\ front/back\ of\ the\ deque.\n\ \ \ \ @throws\ \ NoSuchElementException\ if\ the\ deque\ is\ empty\ before\ the\noperation.
+comment4.params=
+comment4.target=java.lang.Object\ removeBack()
+comment5.params=
+comment5.target=java.lang.Object\ getFront()
+comment5.text=\ Retrieves\ the\ front/back\ entry\ of\ this\ deque.\n\ \ \ \ @return\ \ The\ object\ at\ the\ front/back\ of\ the\ deque.\n@throws\ \ NoSuchElementException\ if\ the\ deque\ is\ empty.
+comment6.params=
+comment6.target=java.lang.Object\ getBack()
+comment7.params=
+comment7.target=boolean\ isEmpty()
+comment7.text=\ Detects\ whether\ this\ deque\ is\ empty.\n@return\ \ True\ if\ the\ deque\ is\ empty,\ or\ false\ otherwise.
+comment8.params=
+comment8.target=void\ clear()
+comment8.text=Removes\ all\ entries\ from\ this\ deque.
+numComments=9

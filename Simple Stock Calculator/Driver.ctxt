@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Driver
+comment0.text=\n\ Driver\ class\ of\ StockCalculator\n\ Katarina\ Liedbeck\n\ @version1\ 10/20/2023\n\ This\ is\ the\ driver\ class\ for\ StockLedger\n\ It\ should\ allow\ the\ user\ to\ buy\ and\ sell\ stocks,\ additionally\ allow\ to\ display\ the\ total\ Capital\ gain/loss\ of\ the\ user\ so\ far,\ and\ it\ total.\n\ The\ user\ is\ allowed\ to\ quit\ at\ anytime.\n
+comment1.params=
+comment1.target=void\ main()
+numComments=2
