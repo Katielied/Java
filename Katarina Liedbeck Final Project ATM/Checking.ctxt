@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Checking
+comment0.text=\n\ @Katarina\ Liedbeck\ \n\ @version1\ \n
+comment1.params=theName\ theid\ theBalance\ om
+comment1.target=Checking(java.lang.String,\ java.lang.String,\ Money,\ Money)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Checking\n
+comment2.params=moneyToSubtract
+comment2.target=void\ withdraw(Money)
+comment2.text=\n\ Overriding\ the\ withdraw\ method\ used\ in\ account\ class.\n\ Precondition\:\ An\ account\ exists\ and\ it\ is\ of\ type\ checking,\ the\ method\ getBalance,\ add(),\ class\n\ insufficient\ funds\ exception\ and\ compareTo\ already\ exist.\n\ Postcondition\:\ The\ method\ will\ add\ the\ overdraft\ balance\ to\ the\ current\ balance\ of\ the\ account,\ and\ withdraw\ the\ moneyToSubtract\n\ taking\ into\ account\ the\ overdraft\ maximum.\ If\ the\ amount\ of\ money\ to\ subtract\ is\ greater\ than\ or\ equal\ to\ the\ total\ overdraftBalance\n\ then\ it\ will\ withdraw\ from\ the\ account,\ if\ not\ it\ will\ throw\ the\ insufficient\ funds\ exception.\n\ \n\ @param\ Money\ moneyToSubtract,\ money\ user\ wishes\ to\ withdraw\ from\ account.\ \ \n
+comment3.params=
+comment3.target=Money\ getOM()
+comment3.text=\n\ The\ method\ is\ used\ to\ get\ the\ overdraft\ maximum\ of\ the\ account.\n\ Precondition\:\ The\ account\ exists\ and\ is\ of\ type\ checking.\n\ Postcondition\:\ The\ method\ will\ return\ the\ overdraft\ maximum\ of\ the\ account.\ \n\ \n\ @return\ this.overdraftMax,\ returns\ the\ overdraft\ maximum\ of\ the\ type\ Checking\ Account.\n
+comment4.params=
+comment4.target=Money\ getTotalMoney()
+comment4.text=\n\ Method\ used\ to\ get\ the\ total\ amount\ of\ money\n\ precondition\:\ There\ is\ a\ checking\ account\ with\ a\ balance\ and\ overdraft\ max,\n\ \u00A8postcondition\:\ The\ method\ will\ return\ the\ total\ amount\ of\ money,\ with\ both\ the\ balance\ and\ the\ overdraft\ maximum.\n
+comment5.params=
+comment5.target=java.lang.String\ returnAccType()
+comment5.text=\n\ Method\ used\ to\ return\ the\ account\ type,\ checking.\n\ precondition\:\ There\ is\ an\ account\ created\ of\ type\ checking.\n\ postcondition\:\ The\ method\ will\ return\ "c"\ as\ the\ account\ type.\n
+numComments=6

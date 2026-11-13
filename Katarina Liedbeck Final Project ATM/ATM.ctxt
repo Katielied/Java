@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ATM
+comment0.text=\n\ Katarina\ Liedbeck\n\ Main\ Driver\ ATM\ \n\ Version\ 1,\ last\ updated\ 05/18/2023\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Driver/main\ class\ for\ ATM\ Final\ project.\n\ User\ should\ be\ able\ to\ choose\ between\ deposit,\ withdraw,\ checkbalance,\ display\ account\ and\ exit\n\ User\ will\ be\ asked\ if\ they\ want\ to\ do\ another\ action,\ and\ how\ much\ they\ would\ like\ to\ withdraw\ or\ deposit\n\ The\ accounts\ will\ be\ read\ froma\ \ text\ file\ and\ updated\ in\ the\ same\ text\ file.\n\ The\ withdraw\ method\ will\ work\ differently\ wether\ or\ not\ its\ a\ checking\ or\ regular\ account.\n
+comment2.params=fileName
+comment2.target=BankInterface\ readFromFile(java.lang.String)
+comment2.text=\n\ readFromFile\:\ \n\ Method\ which\ reads\ the\ accounts\ from\ a\ file\ \n\ precondition\:\ a\ file\ exists\ with\ accounts,\ and\ are\ formatted\ correctly,\ inputmanager\ class\ is\ created,\ add\ account\ method\ is\ created.\n\ posticondition\:\ Returns\ the\ bank\ with\ the\ read\ from\ file\ accounts\ .\n\ \n
+comment3.params=ioh
+comment3.target=java.lang.String\ readUserID(IOHandlerInterface)
+comment3.text=\n\ readUserID,\ reads\ the\ id\ of\ the\ user.\n\ precondition\:\ equals\ method\ is\ already\ created,\ there\ are\ ID's\ which\ match\ accounts\ in\ the\ bank\ .\n\ postcondition\:\ returns\ the\ userID\ if\ entered\ correctly,\ if\ the\ ID\ is\ invalid\ the\ user\ will\ be\ asked\ to\ enter\ their\ ID\ again\ .\n\ @param\ IOHandlerInterface\ ioh\n\ @return\ String\ id\ read\ from\ user.\n\n
+comment4.params=ioh
+comment4.target=java.lang.String\ readDepositAmount(IOHandlerInterface)
+comment4.text=\n\ Method\ used\ to\ read\ the\ deposit\ amount\ from\ user.\n\ Checks\ if\ user's\ deposit\ amount\ is\ valid\ \n\ If\ user\ input\ format\ is\ invalid,\ user\ will\ be\ asked\ to\ input\ amount\ of\ money\ again.\n\ precondition\ \:\ user\ has\ chosen\ the\ transaction\ of\ deposit\ and\ their\ ID\ is\ entered\ and\ validated\ .\n\ postcondition\ \:\ the\ method\ will\ return\ the\ calidated\ amount\ of\ money\ which\ the\ user\ wants\ to\ deposit\ into\ their\ account\ .\n\ @returns\ the\ String\ user's\ amount\ of\ deposit\ money\ \n\ @param\ IOHandlerInterface\ ioh\n
+comment5.params=ioh
+comment5.target=java.lang.String\ readWithdrawAmount(IOHandlerInterface)
+comment5.text=\n\ Method\ used\ to\ read\ the\ withdraw\ amount\ from\ user.\n\ Checks\ if\ user's\ withdraw\ amount\ is\ valid\ \n\ If\ user\ input\ format\ is\ invalid,\ user\ will\ be\ asked\ to\ input\ amount\ of\ money\ again.\n\ precondition\ \:\ The\ user\ has\ chosen\ the\ transaction\ withdraw,\ and\ their\ id\ is\ entered\ and\ validated\ .\ \n\ @returns\ the\ String\ user's\ amount\ of\ withdraw\ money\ \n\ @param\ IOHandlerInterface\ ioh\n
+comment6.params=bank\ id
+comment6.target=boolean\ isValid(BankInterface,\ java.lang.String)
+comment6.text=\n\ *isValid\ method\:\n\ FoundAccount\ is\ set\ to\ null\n\ if\ account\ id\ is\ valid\ it\ will\ return\ true\n\ precondition\:\ the\ id\ is\ entered\ by\ the\ user\ already,\ there\ is\ a\ bank\ which\ exists\ with\ accounts\ attached\ to\ IDs.\ \n\ postcondition\ \:\ The\ method\ vill\ validate\ the\ user\ id,\ and\ return\ true\ if\ the\ account\ is\ found\ and\ if\ the\ account\ is\ not\ found\ it\ will\ return\ false.\n\ @param\ BankInterface\ bank\n\ @param\ String\ id\n
+comment7.params=ioh
+comment7.target=boolean\ askAnotherAction(IOHandlerInterface)
+comment7.text=\n\ Method\ used\ to\ ask\ if\ the\ user\ wants\ to\ do\ another\ action.\n\ precondition\:\ The\ user\ has\ just\ completed\ an\ action,\ the\ equals\ method\ exists.\n\ postcondition\ \:\ The\ method\ will\ return\ the\ users\ choice\ of\ yes\ or\ no,\ implying\ wether\ or\ not\ they\ want\ to\ do\ another\ action.\n\ If\ the\ user\ types\ neither\ yes\ or\ no,\ it\ will\ continue\ asking\ if\ the\ user\ wants\ to\ do\ another\ action.\n\ @param\ IOHandlerInterface\ ioh\n\ @return\ userChoice\ \n
+numComments=8

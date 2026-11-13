@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=InputManager
+comment1.params=inputSource
+comment1.target=Account\ readOneAccountFrom(java.util.Scanner)
+comment1.text=\n\ Method\:\ readOneAccountFrom\n\ Precondition\:\ inputSource\ is\ a\ Scanner\ object,\ already\ set\ up\ to\ read\ from\ a\ text\ file\ or\ standard\ input\ source\ (keyboard).\n\ Postcondition\:\ returns\ an\ Account\ with\ the\ data\ read\ for\ its\ attributes.\n\ Assumption\:\ Account\ data\ will\ be\ in\ the\ format\ of\:\ name,id,balance\n
+numComments=2

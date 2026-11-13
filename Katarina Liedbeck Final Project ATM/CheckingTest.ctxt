@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CheckingTest
+comment0.text=\n\ The\ test\ class\ CheckingTest.\n\n\ @Katarina\ Liedbeck\n\ @version1\n
+comment1.params=
+comment1.target=CheckingTest()
+comment1.text=\n\ Default\ constructor\ for\ test\ class\ CheckingTest\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\n\ Tears\ down\ the\ test\ fixture.\n\n\ Called\ after\ every\ test\ case\ method.\n
+comment4.params=
+comment4.target=void\ testWithdraw()
+comment4.text=\n\ Testing\ the\ withdraw\ method.\n\ precondtion\ \:\ the\ equals\ method\ is\ created\ and\ works\ in\ test.\n\ postcondition\ \:\ The\ expected\ acc1\ and\ expected\ acc2\ are\ equivalent\ to\ acc1\ and\ acc2,\ asserting\ True\ to\ the\ test\ method,\ which\ means\n\ that\ the\ withdraw\ method\ works.\n\ \n
+numComments=5

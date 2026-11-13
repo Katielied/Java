@@ -1,0 +1,8 @@
+Katie L,0,5000,r,0
+Mathew S,1,60000,c,5000
+Brandon S,2,980000,r,0
+Chris S,3,45000,c,10000
+Hugo M,4,560000,r,0
+Nassia P,5,100000,r,0
+Barbie Q,6,100000,r,0
+Leo C,7,400000,c,10000

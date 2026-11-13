@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=IOHandlerDialog
+comment0.text=\n\ IOHandlerDialog\:\ uses\ dialog\ boxes\ for\ input\ (via\ get\ method)\ and\ output\ (via\ put\ method).\n\ Note\:\ exceptions\ are\ potentially\ thrown\ by\ methods\ of\ JOptionPane;\ refer\ to\ documentation\ in\ Java\ standard\ library.\ \n
+comment1.params=
+comment1.target=IOHandlerDialog()
+comment1.text=\n\ constructor\n\ @param\ none\n
+comment2.params=prompt
+comment2.target=java.lang.String\ get(java.lang.String)
+comment2.text=\n\ get\:\ \n\ @param\ String\ prompt\n\ @return\ String\ that\ was\ input\ by\ the\ user\ via\ dialog\ box\n\ or\ ""\ if\ the\ user\ clicked\ the\ cancel\ button.\n
+comment3.params=output
+comment3.target=void\ put(java.lang.String)
+comment3.text=\n\ put\:\ \n\ @param\ String\ to\ write\ to\ the\ selected\ destination.\n
+comment4.params=listTitle\ prompt\ choices
+comment4.target=java.lang.String\ getFromList(java.lang.String,\ java.lang.String,\ java.lang.String[])
+comment4.text=\n\ getFromList\:\n\ @param\ String\ listTitle\n\ @param\ String\ prompt\n\ @param\ String[]\ choices\n\ @return\ String\ that\ was\ input\ by\ the\ user.\n
+numComments=5

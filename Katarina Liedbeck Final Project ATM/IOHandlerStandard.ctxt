@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=IOHandlerStandard
+comment0.text=\n\ IOHandlerStandard\:\ uses\ standard\ IO\ for\ input\ (via\ get\ method)\ and\ output\ (via\ put\ method).\n\ Note\:\ exceptions\ are\ potentially\ thrown\ by\ methods\ of\ Scanner;\ refer\ to\ documentation\ in\ Java\ standard\ library.\ \n
+comment1.params=
+comment1.target=IOHandlerStandard()
+comment1.text=\n\ constructor\:\ \n\ @param\ none\n
+comment2.params=prompt
+comment2.target=java.lang.String\ get(java.lang.String)
+comment2.text=\n\ get\:\ \n\ @param\ a\ String,\ prompt\ to\ display\ to\ standard\ output\ destination.\n\ @return\ a\ String,\ user\ input\ from\ standard\ input\ source.\n
+comment3.params=output
+comment3.target=void\ put(java.lang.String)
+comment3.text=\n\ put\:\ \n\ @param\ a\ String\ to\ write\ to\ the\ selected\ destination.\n
+comment4.params=listTitle\ prompt\ choices
+comment4.target=java.lang.String\ getFromList(java.lang.String,\ java.lang.String,\ java.lang.String[])
+comment4.text=\n\ getFromList\:\n\ @param\ String\ listTitle\n\ @param\ String\ prompt\n\ @param\ String[]\ choices\n\ @return\ String\ that\ was\ input\ by\ the\ user.\n
+numComments=5

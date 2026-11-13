@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=InsufficientFundsException
+comment0.text=\n\n\ @Katarina\ Liedbeck\n\ @version1\n
+comment1.params=s
+comment1.target=InsufficientFundsException(java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ InsufficientFundsException\n
+numComments=2
